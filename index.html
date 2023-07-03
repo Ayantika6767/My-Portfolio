@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                <img src="images/logo.jpg" alt="" class="logo"> 
+                <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Portfolio</a></li>
+                <li><a href="#portfolio">My Projects</a></li>
+                <li><a href="#certificates">My Certifications</a></li>
+                <!-- <li><a href="#achievements">My Achievements</a></li> -->
+                <li><a href="#contact">Contact</a></li>
+                
+                <i class="fas fa-times" onclick="closemenu()"></i>
+               </ul>
+               <i class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
+
+            <div class="header-text">
+                <div class="container">
+                    <div class="row2">
+
+                        <div class="about-col-4">
+                            <p>Web Developer</p>
+                            <h1>Hi! I am <span style="color:#ff004f;">Ayantika</span> from Assam</h1>
+                        </div>
+                        
+                        <div class="about-col-4">
+                            <img src="images/ayantika_formal.jpg" alt="">
+                        </div>
+
+                    </div>
+                </div>
+                
+            </div>
+                
+        </div>
+        </div>
+<!-- --------------------------about---------------------------- -->
+            <div id="about">
+                <div class="container">
+                    <div class="row1">
+
+                        <div class="about-col-1">
+                            <img src="images/spectra.jpg" alt="" >
+                        </div>
+                   
+               
+                        <div class="about-col-2">
+                            <h1 class="sub-title">About me</h1>
+                            <p>Hello! My name is Ayantika Mukherjee. I was born in West Bengal but brought up in Assam. My mother tongue is Bengali in addition
+                                to which I can speak in Assamese, Hindi and English.I have a keen interest in creative works, like to have sportsmanship spirit,
+                                want to step in the coorporate industry with full confidence and determination. As a science student, I have this engineer mindset
+                                and am pretty sure about my adaptability, adjusting nature and multi-tasking.
+                                </p>
+                                <div class="tabs">
+                                    <p class="tab-links active-link" onclick="opentab('tech-skills')">Technical Skills</p>
+                                    <p class="tab-links" onclick="opentab('nontech-skills')">Non-Technical Skills</p>
+                                    <p class="tab-links" onclick="opentab('edu')">Education</p>
+                                </div>
+                                <div class="tab-contents active-tab" id="tech-skills">
+                                    <ul>
+                                        <li><span>Web developer </span> <br> Designing Web/App Interfaces</li>
+                                        <li><span>React JS  </span> <br>Frontend Frameworks</li>
+                                        <li><span>Node JS </span> <br>Backend Frameworks</li>
+                                        <li><span>Express JS </span> <br>Backend Frameworks</li>
+                                    </ul>
+                                </div>
+                                <div class="tab-contents " id="nontech-skills">
+                                    <ul>
+                                        <li><span>Classical Music </span> <br> Completed Masters Degree(7th year)in Hindustani Vocal Music from Akhil Bhartiya Gandharva Mahavidyalaya Mandal </li>
+                                        <li><span>Rabindra Sangeet  </span> <br> Completed (4th year) in Rabindra Sangeet from Bangiya Sangeet Parishad</li>
+                                        <li><span>Nazrul Geeti  </span> <br> Completed (3rd year) in Nazrul Geeti from Bangiya Sangeet Parishad</li>
+                                        <li><span>Painting  </span> <br> Completed Visharad(6th year) in Painting from Bangiya Sangeet Parishad</li>
+                                        <li><span>Bharatnatyam </span> <br>Completed (2nd year) in Bharatnatyam Classical Dance from Bangiya Sangeet Parishad</li>
+                                        <li><span>Swimming </span> <br>Took swimming classes for 4years</li>
+                                    </ul>
+                                </div>
+                                <div class="tab-contents" id="edu">
+                                    <ul>
+                                        <li><span>Matriculation </span> <br>ICSE:92.8%,2017 From-Jorhat,Assam</li>
+                                        <li><span>Coaching </span> <br>From-Kota,Rajasthan</li>
+                                        <li><span>High-Secondary </span> <br>CBSE:76.4%,2020 From-Kota,Rajasthan</li>
+                                        <li><span>Graduation</span> <br>LPU(Btech,Cse):8.29cgpa,Present From-Phagwara,Jalandhar-</li>
+                                    </ul>
+                                </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- --------------------work------------------------ -->
+<div id="work">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Collaboration and Communication: Work closely with stakeholders, including clients and developers, to ensure effective communication and collaboration throughout the design process.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI Design</h2>
+                <p>Collaboration with Developers: To collaborate with developers to ensure the designs can be implemented accurately and effectively. And provide design specifications, guidelines, and assets to maintain consistency throughout the development process.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>App Design</h2>
+                <p>Target Audience: Understanding the target audience is crucial to designing an app that meets their needs and preferences. Considering factors such as demographics, user behaviors, and goals to tailor the design accordingly.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -----------------portfolio--------------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="project-list">
+            <div class="project">
+                <img src="images/Screenshot (41).png" alt="" height="300" width="400">
+                <div class="layer">
+                    <h3>Cafe-grub up page</h3>
+                    <p>Cafe website with Beautiful ui with interactive buttons</p>
+                    <p>Techstack: Bootstrap</p>
+                    <a href="https://cafe-grub-up.netlify.app" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/Screenshot (42).png" alt="" height="300" width="400">
+                <div class="layer">
+                    <h3>Quiz App</h3>
+                    <p>Quiz app using basic javascript and css</p>
+                    <p>Techstack: javascript</p>
+                    <a href="https://easy-quiz-app-using-js.netlify.app" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/Screenshot (43).png" alt="" height="300" width="400">
+                <div class="layer">
+                    <h3>Joke Generator</h3>
+                    <p>Joke generator using basic javascript and css</p>
+                    <p>Techstack: javascript</p>
+                    <a href="https://random-joke-genrate.netlify.app" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+
+            </div>
+
+            <div class="project">
+                <img src="images/Screenshot (44).png" alt="" height="300" width="400">
+                <div class="layer">
+                    <h3>Box Game</h3>
+                    <p>Try this box game to check whether you can identify the correct box!</p>
+                    <p>Techstack: javascript,css styling</p>
+                    <a href="https://try-box-game.netlify.app" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/Screenshot (45).png" alt="" height="300" width="400">
+                <div class="layer">
+                    <h3>Ramayan</h3>
+                    <p>just a visual based page to play with some css animations</p>
+                    <p>Techstack: css styling</p>
+                    <a href="https://ravan-escapes-ram-arrows.netlify.app" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            
+            <div class="project">
+                <img src="images/Screenshot (46).png" alt="" height="300" width="400">
+                <div class="layer">
+                    <h3>Current Time teller</h3>
+                    <p>Tells the exact current time whenever you click on it</p>
+                    <p>Techstack: javascript function</p>
+                    <a href="https://current-time-giver.netlify.app" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="project">
+                <img src="images/Screenshot (47).png" alt="" height="300" width="400">
+                <div class="layer">
+                    <h3>Bulb on off</h3>
+                    <p>Click on the switch to on or off the bulb</p>
+                    <p>Techstack: css</p>
+                    <a href="https://try-bulb-on-off.netlify.app" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/Screenshot (48).png" alt="" height="300" width="400">
+                <div class="layer">
+                    <h3>Own Food Menu App</h3>
+                    <p>Customizable food menu api. You can add any extra dish according to your menu wish list</p>
+                    <p>Techstack: React js</p>
+                    <p>Techstack: javascript function</p>
+                    <a href="https://own-food-menu-api.netlify.app" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/Screenshot (49).png" alt="" height="300" width="400">
+                <div class="layer">
+                    <h3>Weather-app-api</h3>
+                    <p>You can check the weather of any city using this weather api app</p>
+                    <p>Techstack: Handlebars,Node js, Express js</p>
+                    <a href="https://github.com/Ayantika6767/Weather-app-api.git" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+           
+            
+       
+</div>
+<!-- ------------------------------certificate------------------------------- -->
+<div  id="certificates">
+    <div class="container">
+        <h1 class="sub-title">My Certificates</h1>
+        
+        <div class="cert-list">
+            <div class="cert">
+                <img src="images/coding-blocks-java.png" alt="" height="200" width="400">
+                <div class="layer">
+                    <h3>Java online classroom program</h3>
+                    <p>From Coding Blocks</p>
+                    <p>Mentor: Monu Kumar Bhaiya</p>
+                    
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/aws-summer-wave.png" alt="" height="200" width="400">
+                <div class="layer">
+                    <h3>AWS Summer wave </h3>
+                    <p>4days-Online You Tube session by AWS</p>
+                    
+                    <!-- <a href="https://easy-quiz-app-using-js.netlify.app" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/code-a-thon.png" alt="" height="200" width="400">
+                <div class="layer">
+                    <h3>24hours Code-a-thon</h3>
+                    <!-- <p>Joke generator using basic javascript and css</p>
+                    <p>Techstack: javascript</p> -->
+                    <!-- <a href="https://random-joke-genrate.netlify.app" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                </div>
+
+            </div>
+
+            <div class="project">
+                <img src="images/coursera.png" alt="" height="200" width="400">
+                <div class="layer">
+                    <h3>Server-side-scripting</h3>
+                    <p>Learnt Node JS from Coursera</p>
+                    <!-- <a href="https://try-box-game.netlify.app" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/flipkart-grid.png" alt="" height="200" width="400">
+                <div class="layer">
+                    <h3>Participated in Flipkart Grid Challenfe</h3>
+                    <!-- <p>just a visual based page to play with some css animations</p>
+                    <p>Techstack: css styling</p>
+                    <a href="https://ravan-escapes-ram-arrows.netlify.app" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                </div>
+            </div>
+            
+            <div class="project">
+                <img src="images/microsoft-studentambassador.png" alt="" height="200" width="400">
+                <div class="layer">
+                    <h3>Microsoft Student Ambassador Program</h3>
+                    <p>Learnt about git and github</p>
+                    <!-- <a href="https://current-time-giver.netlify.app" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                </div>
+            </div>
+
+           
+            
+            <div class="project">
+                <img src="images/stweak-eventmanager.png" alt="" height="200" width="400">
+                <div class="layer">
+                    <h3>Event Management</h3>
+                    <p>Organisation: STWEAK AP</p>
+                    
+                    <!-- <a href="https://try-bulb-on-off.netlify.app" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/khoj-eventmanager.png" alt="" height="200" width="400">
+                <div class="layer">
+                    <h3>Event Management</h3>
+                    <p>Organisation: Khoj</p>
+                    <p>Successfully coordinated an event on Machine Learning and Data Sceince</p>
+                    <!-- <a href="https://own-food-menu-api.netlify.app" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/dsa-gfg.png" alt="" height="200" width="400">
+                <div class="layer">
+                    <h3>Self-paced Online course</h3>
+                    <p>Organisation: Geeks for Geeks</p>
+                    <!-- <a href="https://github.com/Ayantika6767/Weather-app-api.git" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/dav.png" alt="" height="200" width="400">
+                <div class="layer">
+                    <h3>Participated in InterSchool Cultural Competition</h3>
+                    <p>Organisation: DAV,Jalandhar</p>
+                    <!-- <a href="https://github.com/Ayantika6767/Weather-app-api.git" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/tourism-folk-1.png" alt="" height="200" width="400">
+                <div class="layer">
+                    <h3>World Tourism Day</h3>
+                    <p>Department of Hotel Management</p>
+                    <p>Category: Folk Music</p>
+                    <p>Position: Winner</p>
+                    <!-- <a href="https://github.com/Ayantika6767/Weather-app-api.git" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                </div>
+            </div>
+            
+            <div class="project">
+                <img src="images/viral-voice1.png" alt="" height="200" width="400">
+                <div class="layer">
+                    <h3>Viral Voice E-Reality Show</h3>
+                    <p>Category: Music</p>
+                    <p>Conducted by panel of judges for 3 consecutive Rounds</p>
+                    <p>Three Day Long Competition held in Rounds</p>
+                    <p>Position: Winner</p>
+                    <!-- <a href="https://github.com/Ayantika6767/Weather-app-api.git" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/cse-singing-star-1.png" alt="" height="200" width="400">
+                <div class="layer">
+                    <h3>CSE-Singing-Star</h3>
+                    <p>Position: Winner </p>
+                    <!-- <a href="https://github.com/Ayantika6767/Weather-app-api.git" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                </div>
+            </div>
+            
+            <div class="project">
+                <img src="images/freshers20-1.png" alt="" height="200" width="400">
+                <div class="layer">
+                    <h3>FRESHERS FAESTA 2020</h3>
+                    <p>Won the title of Miss Spontaneous</p>
+                    <!-- <a href="https://github.com/Ayantika6767/Weather-app-api.git" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/incredible8-1.png" alt="" height="200" width="400">
+                <div class="layer">
+                    <h3>Participated in InterSchool Vaccine Campaign</h3>
+                    <p>Represented CSE and it was a 4 month long campaign</p>
+                    <p>Position: Winner</p>
+                    <!-- <a href="https://github.com/Ayantika6767/Weather-app-api.git" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/soty-bk-1.png" alt="" height="200" width="400">
+                <div class="layer">
+                    <h3>Participated in Section of the Year,2021</h3>
+                    <p>Team Captain</p>
+                    <p>Position: Winner</p>
+                    <!-- <a href="https://github.com/Ayantika6767/Weather-app-api.git" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/soty20-2.png" alt="" height="200" width="400">
+                <div class="layer">
+                    <h3>Participated in Section of the Year,2020</h3>
+                    <p>Team Captain</p>
+                    <p>Position: First Runner Up</p>
+                    <!-- <a href="https://github.com/Ayantika6767/Weather-app-api.git" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/soty20-folk-1.png" alt="" height="200" width="400">
+                <div class="layer">
+                    <h3>Participated in Section of the Year,2020</h3>
+                    <p>Category: Folk Music</p>
+                    <p>Position: Winner</p>
+                    
+                    <!-- <a href="https://github.com/Ayantika6767/Weather-app-api.git" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/soy21-first.png" alt="" height="200" width="400">
+                <div class="layer">
+                    <h3>Participated in Inter School Section of the Year,2021</h3>
+                    <p>Position: Winner</p>
+                
+                </div>    <!-- <a href="https://github.com/Ayantika6767/Weather-app-api.git" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+            </div>
+                <div class="project">
+                    <img src="images/soy21-folk2.png" alt="" height="200" width="400">
+                    <div class="layer">
+                        <h3>Participated in Inter School Section of the Year,2021</h3>
+                        <p>Category: Folk Music</p>
+                        <p>Position: First Runners Up</p>
+                        
+                        <!-- <a href="https://github.com/Ayantika6767/Weather-app-api.git" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                    </div>
+                </div>
+                    <div class="project">
+                        <img src="images/soy21-rang2.png" alt="" height="200" width="400">
+                        <div class="layer">
+                        <h3>Participated in Inter School Section of the Year,2021</h3>
+                        <p>Category: Rangoli</p>
+                        <p>Position: First Runners Up</p>
+                            <!-- <a href="https://github.com/Ayantika6767/Weather-app-api.git" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                        </div>
+                    </div>
+                        <div class="project">
+                            <img src="images/soy21-westrn1.png" alt="" height="200" width="400">
+                            <div class="layer">
+                            <h3>Participated in Inter School Section of the Year,2021</h3>
+                        <p>Category: Western Music</p>
+                        <p>Position: Winner</p>
+                                <!-- <a href="https://github.com/Ayantika6767/Weather-app-api.git" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                            </div>
+                        </div>
+                            
+                                
+                                <div class="project">
+                                    <img src="images/virasat-1.png" alt="" height="200" width="400">
+                                    <div class="layer">
+                                        <h3>Virasat-E-Udaan</h3>
+                                        <p>Cultural Showcase</p>
+                                        <p>Team Captain</p>
+                                        <p>Position: Winner</p>
+                                        <!-- <a href="https://github.com/Ayantika6767/Weather-app-api.git" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                                    </div>
+                                </div>
+                                    <div class="project">
+                                        <img src="images/virasat-music-2.png" alt="" height="200" width="400">
+                                        <div class="layer">
+                                            <h3>Virasat-E-Udaan</h3>
+                                        <p>Cultural Showcase</p>
+                                        <p>Category: Music</p>
+                                        <p>Position: First Runner Up</p>
+                                            <!-- <a href="https://github.com/Ayantika6767/Weather-app-api.git" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                                        </div>
+                                        </div>
+                                        <div class="project">
+                                            <img src="images/unyc-creative-writing3.png" alt="" height="200" width="400">
+                                            <div class="layer">
+                                                <h3>UNYC</h3>
+                                                <p>Category: Creative Writing</p>
+                                                <p>Position: Second Runner Up</p>
+                                                <!-- <a href="https://github.com/Ayantika6767/Weather-app-api.git" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                                            </div>
+                                        </div>
+                                        <div class="project">
+                                            <img src="images/unyc-singing2.png" alt="" height="200" width="400">
+                                            <div class="layer">
+                                                <h3>UNYC</h3>
+                                                <p>Category: Music</p>
+                                                <p>Position: First Runner Up</p>
+                                                <!-- <a href="https://github.com/Ayantika6767/Weather-app-api.git" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                                            </div>
+                                        </div>
+                                        <div class="project">
+                                            <img src="images/cadence.png" alt="" height="200" width="400">
+                                            <div class="layer">
+                                                <h3>Cadence Women Conference</h3>
+                                                <p>Women in coorporate and tech industry</p>
+                                                <!-- <a href="https://github.com/Ayantika6767/Weather-app-api.git" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                                            </div>
+                                        </div>
+                                        <div class="project">
+                                            <img src="images/gfg.png" alt="" height="200" width="400">
+                                            <div class="layer">
+                                                <h3>Successfully hosted the event</h3>
+                                                <p>Organisation: Geeks for Geeks Student chapter lpu</p>
+                                                <p>Co-head Public Speaker</p>
+                                                <!-- <a href="https://github.com/Ayantika6767/Weather-app-api.git" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                                            </div>
+                                        </div>
+                                        <div class="project">
+                                            <img src="images/spectra-1.png" alt="" height="200" width="400">
+                                            <div class="layer">
+                                                <h3>Speactra: A mega university contest</h3>
+                                                <p>Interschool Competition</p>
+                                                <p>Represented Team CSE and won laurels</p>
+                                                <!-- <a href="https://github.com/Ayantika6767/Weather-app-api.git" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                                            </div>
+                                        </div>
+                            
+                                        <div class="project">
+                                            <img src="images/one-world.png" alt="" height="200" width="400">
+                                            <div class="layer">
+                                                <h3>One-World: A mega university contest</h3>
+                                                <p>Represented Team Nepal and bagged the First Position</p>
+                                                
+                                                <p></p>
+                                                <!-- <a href="https://github.com/Ayantika6767/Weather-app-api.git" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                                            </div>
+                                        </div>
+                                        <div class="project">
+                                            <img src="images/spectra-mime.png" alt="" height="200" width="400">
+                                            <div class="layer">
+                                                <h3>Spectra</h3>
+                                                <p>Participated in Mime for the first time</p>
+                                                <!-- <a href="https://github.com/Ayantika6767/Weather-app-api.git" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                                            </div>
+                                        </div>
+                                        <div class="project">
+                                            <img src="images/lets-fight-it-out.png" alt="" height="200" width="400">
+                                            <div class="layer">
+                                                <h3>Incredible 8</h3>
+                                            <p>Trophy of Incredible-8 Winning Team CSE</p>
+                                            <p>Category: Vaccine Campaign</p>
+                                            <p>Position: Winner</p>
+                                                <!-- <a href="https://github.com/Ayantika6767/Weather-app-api.git" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                                            </div>
+
+                                </div>
+            
+           
+
+</div>
+
+
+<!-- ------------------contact-------------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left" >
+                <div class="write" id="sizered">
+                <h1 class="sub-title" >Contact Me</h1>
+                <p > <i class="fa-sharp fa-solid fa-paper-plane" ></i>ayantikamukh6767@gmail.com</p>
+                <p> <i class="fa-solid fa-phone-volume"></i>9101721833</p>
+                </div>
+                <div class="social-icons" id="sizeof">
+                   <a href="https://www.facebook.com/" ><i class="fa-brands fa-facebook"></i></a>
+                   <a href="https://www.linkedin.com/in/ayantika-mukherjee-1993a91b5/"><i class="fa-brands fa-linkedin"></i></a>
+                   <a href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp"></i></a>
+                   <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a> 
+                   <a href=" https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a> 
+                </div>
+                <a href="images/Ayantika cv.pdf" class="btn btn2" download>Download My CV</a> 
+            </div> 
+            <div class="contact-right">
+               <form action="" name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="text" name="Email" placeholder="Your email" required>
+                    <input type="text" name="Phone no." placeholder="Your phone number" required>
+                    <!-- <input type="text" name="college" placeholder="Your college" required>
+                    <input type="text" name="year" placeholder="Your year of college" required> -->
+                    <textarea name="Message" id="" cols="30" rows="6" placeholder="Your query"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+
+               </form>
+               <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Ayantika <i class="fa-sharp fa-solid fa-hand-peace"></i>This is my portfolio website</p>
+    </div>
+</div>
+      
+        
+        <script>
+            var tablinks=document.getElementsByClassName("tab-links");
+            var tabcontents=document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                    
+                
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+
+        </script>
+     <script>
+        var side=document.getElementById("sidemenu");
+
+        function openmenu(){
+            side.style.right="0";
+        }
+
+        function closemenu(){
+            side.style.right="-200px";
+        }
+     </script>
+     <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwTixstU_MbzFkRNJNb8nUuWrfU2_4lmcSX-NxwTzNkhkBhgtHiElayHVSoNkohRxQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg");
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Your message has been sent successfully!"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                 form.reset() 
+
+                
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    </body>
+</html>
